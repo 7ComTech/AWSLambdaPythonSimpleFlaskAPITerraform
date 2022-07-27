@@ -6,21 +6,40 @@
 <br/>
 
 # AWS Lambda Function - Python Simple Flask API Terraform
-This solution is a Python Flask simple API with a dependencies layer for deploying with an AWS Terraform Infra. 
-It is already prepared for Serverless Lambda Function and counts on the necessary resources for deployment and full functioning to access via API Gateway.
+This repo contains a project ready for deployment on AWS with the following features*:
+ - A Python Flask simple API (/LambdaFunction)
+ - Serverless AWS Infratsructure on Terraform IaC (/Infra)
+ - Dedicated dependencies layer directory (/DependenciesLayer)
 
-It is a part of our infra for the product SCA. A Python API builder that generates a full CRUD API with swagger definitions to map any relational database with a complete and secure AWS infrastructure. It has several infras for serving many needs with customized resources as cognito, waf, redis or memcached and cloudwatch or centralized logs.
-For more information, visit our page: [SevenTechnologies](https://seventechnologies.cloud/)
-
-## Post Deployment
-
-* ALTER INBOUND AND OUTBOUND RULES FROM SECURITY GROUP IF NECESSARY
-
-</br>
+*This project based on the infrastructure provided by our product SCA: An API builder that generates a full CRUD API with swagger definitions to map any relational database with a complete and secure AWS infrastructure. We're able to provide your project with several infrastrucutures with all the features contained within this project and other customizable resources such as: Cognito for Authentication/Authorization, WAF (Web Application Firewalls), ElastiCache (Redis or Memcached) for low latency applications and full logging capabilities powered by Cloudwatch or Centralized Logs features (S3 + Glue + Athena).
+For more information, visit our page and send us an inquiry: [SevenTechnologies](https://seventechnologies.cloud/)
 
 ## Requirements
 
 Terraform CLI, AWS CLI and AWS Account.
+
+</br>
+
+## Deployment
+Run the init command.
+> > terraform init
+
+Then, apply.
+
+> > terraform apply
+
+To destroy your infrastructure, run:
+
+> > terraform destroy
+
+### Requirements
+Terraform CLI, AWS CLI
+
+</br>
+
+## Post Deployment
+
+* ALTER INBOUND AND OUTBOUND RULES FROM SECURITY GROUPS IF NECESSARY
 
 </br>
 
@@ -122,4 +141,12 @@ No modules.
 |------|-------------|
 | <a name="output_account_id"></a> [account\_id](#output\_account\_id) | To call the account's id whenever we need it |
 | <a name="output_swagger_endpoint_url_for_current_stage"></a> [swagger\_endpoint\_url\_for\_current\_stage](#output\_swagger\_endpoint\_url\_for\_current\_stage) | API Gateway swagger endpoint URL for current stage |
+
+## Social Medias
+* [Linkedin](https://www.linkedin.com/company/7community/)
+* [Instagram-PTBR](https://www.instagram.com/7comtech/)
+
+## Email
+* sales@seventechnologies.cloud
+
 <!-- END_TF_DOCS -->
