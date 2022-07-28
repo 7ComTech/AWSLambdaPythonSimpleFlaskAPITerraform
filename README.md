@@ -11,7 +11,7 @@ This repo contains a project ready for deployment on AWS with the following feat
  - Serverless AWS Infratsructure on Terraform IaC (/Infra)
  - Dedicated dependencies layer directory (/DependenciesLayer)
 
-*This project based on the infrastructure provided by our product SCA: An API builder that generates a full CRUD API with swagger definitions to map any relational database with a complete and secure AWS infrastructure. We're able to provide your project with several infrastrucutures with all the features contained within this project and other customizable resources such as: Cognito for Authentication/Authorization, WAF (Web Application Firewalls), ElastiCache (Redis or Memcached) for low latency applications and full logging capabilities powered by Cloudwatch or Centralized Logs features (S3 + Glue + Athena).
+This project based is on the infrastructure provided by our product SCA: An API builder that generates a full CRUD API with swagger definitions to map any relational database with a complete and secure AWS infrastructure. We're able to provide your project with several infrastrucutures with all the features contained within this project and other customizable resources such as: Cognito for Authentication/Authorization, WAF (Web Application Firewalls), ElastiCache (Redis or Memcached) for low latency applications and full logging capabilities powered by Cloudwatch or Centralized Logs features (S3 + Glue + Athena).
 For more information, visit our page and send us an inquiry: [SevenTechnologies](https://seventechnologies.cloud/)
 
 ## Requirements
